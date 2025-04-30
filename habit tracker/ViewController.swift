@@ -12,18 +12,20 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        view.backgroundColor = .yellow
-
+        view.backgroundColor = .systemCyan
+        view.frame = UIScreen.main.bounds
+        
                 let label = UILabel()
                 label.text = "Habit Tracker "
-        label.textColor = .blue
-                label.font = .boldSystemFont(ofSize: 24)
+                label.textColor = .systemYellow
+                label.font = .boldSystemFont(ofSize: 44)
                 label.translatesAutoresizingMaskIntoConstraints = false
-
+                
+        
                 view.addSubview(label)
                 NSLayoutConstraint.activate([
-                    label.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-                    label.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+                label.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20),
+                label.centerXAnchor.constraint(equalTo: view.centerXAnchor)
                 ])
         }
 
