@@ -8,27 +8,39 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    let backgroundView = UIView()
+    let label = UILabel()
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        backgroundView.frame = view.bounds
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        view.backgroundColor = .systemCyan
-        view.frame = UIScreen.main.bounds
+        setUpView()
+        applyConstraints()
+    }
+    
+    func setUpView() {
+        backgroundView.backgroundColor = .systemBlue
+        backgroundView.translatesAutoresizingMaskIntoConstraints = true
         
-                let label = UILabel()
-                label.text = "Habit Tracker "
-                label.textColor = .systemYellow
-                label.font = .boldSystemFont(ofSize: 44)
-                label.translatesAutoresizingMaskIntoConstraints = false
-                
+        label.text = "Habit Tracker "
+        label.textColor = .systemYellow
+        label.font = .boldSystemFont(ofSize: 44)
+        label.translatesAutoresizingMaskIntoConstraints = false
         
-                view.addSubview(label)
-                NSLayoutConstraint.activate([
-                label.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20),
-                label.centerXAnchor.constraint(equalTo: view.centerXAnchor)
-                ])
-        }
-
-
+        view.addSubview(backgroundView)
+        view.addSubview(label)
+    }
+    
+    func applyConstraints() {
+        NSLayoutConstraint.activate([
+            label.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20),
+            label.centerXAnchor.constraint(equalTo: view.centerXAnchor)
+        ])
+    }
 }
-
