@@ -18,11 +18,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     ) -> Bool {
         
         print("App launched!")
-
+       
+        
+        let mainVC = ViewController()
+        let navVC = UINavigationController(rootViewController: mainVC)
+        
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = ViewController()
+        window?.rootViewController = navVC
         window?.makeKeyAndVisible()
 
+        
         return true
     }
 }
+
