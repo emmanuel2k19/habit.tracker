@@ -8,15 +8,12 @@ import UIKit
 
 class DashboardController: UIViewController,AddHabitDelegate {
     
+    let viewModel = HabitViewModel()
     var habits:[String] = []
     var habitsLabel = UILabel()
     
     func didAddHabit(_ habit: String) {
-        habits.append(habit)
-        print("Habit added: \(habit)")
-        
-        let checkbox = HabitCheckboxView(habitText: habit)
-            habitsStack.addArrangedSubview(checkbox)
+        viewModel.addHabit(name: habit)
     }
     
     let titleLabel = UILabel()
@@ -34,7 +31,23 @@ class DashboardController: UIViewController,AddHabitDelegate {
         view.backgroundColor = .systemGroupedBackground
         setupUI()
         applyConstraints()
+        viewModel.onHabitsChanged = { [weak self] in
+            self?.reloadHabitsUI()
+        }
+        
     }
+    func reloadHabitsUI() {
+        // Clear existing views
+        habitsStack.arrangedSubviews.forEach { $0.removeFromSuperview() }
+
+        // Add updated habits from viewModel
+        for habit in viewModel.habits {
+            let checkbox = HabitCheckView(habitText: habit.name)
+            habitsStack.addArrangedSubview(checkbox)
+        }
+    }
+    
+    
     
     func setupUI() {
         
@@ -68,16 +81,16 @@ class DashboardController: UIViewController,AddHabitDelegate {
         habitsContainer.addSubview(habitsStack)
         
         dummyHabits.forEach { habit in
-            let checkbox = HabitCheckboxView(habitText: habit)
+            let checkbox = HabitCheckView(habitText: habit)
             habitsStack.addArrangedSubview(checkbox)
         }
         
         habitsLabel.numberOfLines = 0
-
+        
         // Add Habit Button
         addHabitButton.setTitle("Add Habit", for: .normal)
         addHabitButton.titleLabel?.font = .boldSystemFont(ofSize: 18)
-        addHabitButton.backgroundColor = .systemBlue
+        addHabitButton.backgroundColor = .systemTeal
         addHabitButton.setTitleColor(.white, for: .normal)
         addHabitButton.layer.cornerRadius = 10
         addHabitButton.addTarget(self, action: #selector(addHabitTapped), for: .touchUpInside)
@@ -126,6 +139,12 @@ class DashboardController: UIViewController,AddHabitDelegate {
         addVC.delegate = self
         navigationController?.pushViewController(addVC, animated: true)
     }
+    
+    @objc func historyButtonTapped() {
+        let historyVC = HistoryViewController()
+        navigationController?.pushViewController(historyVC, animated: true)
+    }
+    
     
 }
  

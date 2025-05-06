@@ -12,6 +12,7 @@ protocol AddHabitDelegate: AnyObject {
 
 class AddHabitViewController: UIViewController {
     
+    let viewModel = HabitViewModel()
     weak var delegate: AddHabitDelegate?
     
     let habitNameTextField = UITextField()
@@ -78,13 +79,16 @@ class AddHabitViewController: UIViewController {
     }
     
     @objc func addHabitTapped() {
-        guard let habitName = habitNameTextField.text, !habitName.isEmpty else {
-            return // or show an alert
-        }
-
-        delegate?.didAddHabit(habitName)
-        navigationController?.popViewController(animated: true)
+        let habitName = habitNameTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) ?? ""
+                
+                guard !habitName.isEmpty else {
+                    // Optional: Show alert for empty input
+                    return
+                }
+                
+                delegate?.didAddHabit(habitName)
+                navigationController?.popViewController(animated: true)
     }
     
-    
 }
+

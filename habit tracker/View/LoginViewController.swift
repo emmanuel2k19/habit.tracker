@@ -13,10 +13,6 @@ class LoginViewController: UIViewController {
     let passwordField = UITextField()
     let loginButton = UIButton()
     
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        backgroundView.frame = view.bounds
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +22,7 @@ class LoginViewController: UIViewController {
     
     func setUpView() {
         backgroundView.backgroundColor = .white
-        backgroundView.translatesAutoresizingMaskIntoConstraints = true
+        backgroundView.translatesAutoresizingMaskIntoConstraints = false
         
         emailField.placeholder = "Email"
         emailField.borderStyle = .roundedRect
@@ -53,6 +49,11 @@ class LoginViewController: UIViewController {
     
     func applyConstraints() {
         NSLayoutConstraint.activate([
+            backgroundView.topAnchor.constraint(equalTo: view.topAnchor),
+            backgroundView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            backgroundView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            backgroundView.trailingAnchor.constraint(equalTo: view.trailingAnchor), 
+            
             emailField.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 100),
             emailField.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 30),
             emailField.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -30),
