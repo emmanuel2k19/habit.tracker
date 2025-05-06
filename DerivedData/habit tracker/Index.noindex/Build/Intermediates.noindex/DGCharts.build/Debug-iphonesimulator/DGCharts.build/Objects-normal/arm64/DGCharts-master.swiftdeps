@@ -1,0 +1,293 @@
+version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+options: "62c828bbc8046def4a88958c815784dcfb0946f8851caf2078784e69430ffcce"
+build_start_time: [1746545406, 815793000]
+build_end_time: [1746545408, 910695000]
+inputs:
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Animation/Animator.swift"
+  : [1746543563, 399204587]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Animation/ChartAnimationEasing.swift"
+  : [1746543563, 399395418]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Charts/BarChartView.swift"
+  : [1746543563, 399527541]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Charts/BarLineChartViewBase.swift"
+  : [1746543563, 399667247]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Charts/BubbleChartView.swift"
+  : [1746543563, 399763496]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Charts/CandleStickChartView.swift"
+  : [1746543563, 399836078]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Charts/ChartViewBase.swift"
+  : [1746543563, 399941161]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Charts/CombinedChartView.swift"
+  : [1746543563, 400052451]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Charts/HorizontalBarChartView.swift"
+  : [1746543563, 400192199]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Charts/LineChartView.swift"
+  : [1746543563, 400271906]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Charts/PieChartView.swift"
+  : [1746543563, 400373822]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Charts/PieRadarChartViewBase.swift"
+  : [1746543563, 400496653]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Charts/RadarChartView.swift"
+  : [1746543563, 400797733]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Charts/ScatterChartView.swift"
+  : [1746543563, 400874315]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Components/AxisBase.swift"
+  : [1746543563, 401070812]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Components/ChartLimitLine.swift"
+  : [1746543563, 401161561]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Components/ComponentBase.swift"
+  : [1746543563, 401245977]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Components/Description.swift"
+  : [1746543563, 401328351]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Components/Legend.swift"
+  : [1746543563, 401526223]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Components/LegendEntry.swift"
+  : [1746543563, 401617764]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Components/Marker.swift"
+  : [1746543563, 401704013]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Components/MarkerImage.swift"
+  : [1746543563, 401787845]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Components/MarkerView.swift"
+  : [1746543563, 401866510]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Components/XAxis.swift"
+  : [1746543563, 401939176]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Components/YAxis.swift"
+  : [1746543563, 402025883]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/ChartBaseDataSet.swift"
+  : [1746543563, 402298755]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/BarChartData.swift"
+  : [1746543563, 402414503]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/BarChartDataEntry.swift"
+  : [1746543563, 402501169]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/BarChartDataSet.swift"
+  : [1746543563, 402583959]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/BarLineScatterCandleBubbleChartData.swift"
+  : [1746543563, 402667958]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/BarLineScatterCandleBubbleChartDataSet.swift"
+  : [1746543563, 402748707]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/BubbleChartData.swift"
+  : [1746543563, 402814248]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/BubbleChartDataEntry.swift"
+  : [1746543563, 402892664]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/BubbleChartDataSet.swift"
+  : [1746543563, 402962455]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/CandleChartData.swift"
+  : [1746543563, 403027745]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/CandleChartDataEntry.swift"
+  : [1746543563, 403101786]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/CandleChartDataSet.swift"
+  : [1746543563, 403174952]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/ChartData.swift"
+  : [1746543563, 403257159]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/ChartDataEntry.swift"
+  : [1746543563, 403341741]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/ChartDataEntryBase.swift"
+  : [1746543563, 403413407]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/ChartDataSet.swift"
+  : [1746543563, 403497989]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/CombinedChartData.swift"
+  : [1746543563, 403716361]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/LineChartData.swift"
+  : [1746543563, 403785902]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/LineChartDataSet.swift"
+  : [1746543563, 403873943]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/LineRadarChartDataSet.swift"
+  : [1746543563, 403950817]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/LineScatterCandleRadarChartDataSet.swift"
+  : [1746543563, 404023941]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/PieChartData.swift"
+  : [1746543563, 404093732]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/PieChartDataEntry.swift"
+  : [1746543563, 404159147]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/PieChartDataSet.swift"
+  : [1746543563, 404234563]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/RadarChartData.swift"
+  : [1746543563, 404305645]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/RadarChartDataEntry.swift"
+  : [1746543563, 404373853]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/RadarChartDataSet.swift"
+  : [1746543563, 404444935]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/ScatterChartData.swift"
+  : [1746543563, 404522143]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Implementations/Standard/ScatterChartDataSet.swift"
+  : [1746543563, 404595308]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Interfaces/BarChartDataSetProtocol.swift"
+  : [1746543563, 404707474]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Interfaces/BarLineScatterCandleBubbleChartDataSetProtocol.swift"
+  : [1746543563, 404798931]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Interfaces/BubbleChartDataSetProtocol.swift"
+  : [1746543563, 404869846]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Interfaces/CandleChartDataSetProtocol.swift"
+  : [1746543563, 404936679]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Interfaces/ChartDataSetProtocol.swift"
+  : [1746543563, 405076344]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Interfaces/LineChartDataSetProtocol.swift"
+  : [1746543563, 405150135]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Interfaces/LineRadarChartDataSetProtocol.swift"
+  : [1746543563, 405219425]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Interfaces/LineScatterCandleRadarChartDataSetProtocol.swift"
+  : [1746543563, 405291758]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Interfaces/PieChartDataSetProtocol.swift"
+  : [1746543563, 405363132]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Interfaces/RadarChartDataSetProtocol.swift"
+  : [1746543563, 405430006]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Data/Interfaces/ScatterChartDataSetProtocol.swift"
+  : [1746543563, 405504088]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Filters/DataApproximator+N.swift"
+  : [1746543563, 405633711]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Filters/DataApproximator.swift"
+  : [1746543563, 405707961]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Formatters/AxisValueFormatter.swift"
+  : [1746543563, 405827417]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Formatters/DefaultAxisValueFormatter.swift"
+  : [1746543563, 405899708]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Formatters/DefaultFillFormatter.swift"
+  : [1746543563, 405969165]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Formatters/DefaultValueFormatter.swift"
+  : [1746543563, 406052123]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Formatters/FillFormatter.swift"
+  : [1746543563, 406122872]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Formatters/IndexAxisValueFormatter.swift"
+  : [1746543563, 406201329]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Formatters/ValueFormatter.swift"
+  : [1746543563, 406266245]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Highlight/BarHighlighter.swift"
+  : [1746543563, 406377410]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Highlight/ChartHighlighter.swift"
+  : [1746543563, 406463617]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Highlight/CombinedHighlighter.swift"
+  : [1746543563, 406532283]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Highlight/Highlight.swift"
+  : [1746543563, 406611657]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Highlight/Highlighter.swift"
+  : [1746543563, 406689198]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Highlight/HorizontalBarHighlighter.swift"
+  : [1746543563, 406760489]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Highlight/PieHighlighter.swift"
+  : [1746543563, 406833613]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Highlight/PieRadarHighlighter.swift"
+  : [1746543563, 406901529]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Highlight/RadarHighlighter.swift"
+  : [1746543563, 406970694]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Highlight/Range.swift"
+  : [1746543563, 407037527]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Interfaces/BarChartDataProvider.swift"
+  : [1746543563, 407143984]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Interfaces/BarLineScatterCandleBubbleChartDataProvider.swift"
+  : [1746543563, 407216816]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Interfaces/BubbleChartDataProvider.swift"
+  : [1746543563, 407279732]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Interfaces/CandleChartDataProvider.swift"
+  : [1746543563, 407344273]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Interfaces/ChartDataProvider.swift"
+  : [1746543563, 407412397]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Interfaces/CombinedChartDataProvider.swift"
+  : [1746543563, 407481896]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Interfaces/LineChartDataProvider.swift"
+  : [1746543563, 407548645]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Interfaces/ScatterChartDataProvider.swift"
+  : [1746543563, 407616186]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Jobs/AnimatedMoveViewJob.swift"
+  : [1746543563, 407731684]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Jobs/AnimatedViewPortJob.swift"
+  : [1746543563, 407807642]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Jobs/AnimatedZoomViewJob.swift"
+  : [1746543563, 407877391]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Jobs/MoveViewJob.swift"
+  : [1746543563, 407946390]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Jobs/ViewPortJob.swift"
+  : [1746543563, 408017639]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Jobs/ZoomViewJob.swift"
+  : [1746543563, 408089138]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/AxisRenderer.swift"
+  : [1746543563, 408274719]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/BarChartRenderer.swift"
+  : [1746543563, 408385176]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/BarLineScatterCandleBubbleRenderer.swift"
+  : [1746543563, 408504758]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/BubbleChartRenderer.swift"
+  : [1746543563, 408739755]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/CandleStickChartRenderer.swift"
+  : [1746543563, 408828420]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/CombinedChartRenderer.swift"
+  : [1746543563, 409030918]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/DataRenderer.swift"
+  : [1746543563, 409114041]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/HorizontalBarChartRenderer.swift"
+  : [1746543563, 409251290]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/LegendRenderer.swift"
+  : [1746543563, 409446787]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/LineChartRenderer.swift"
+  : [1746543563, 409535703]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/LineRadarRenderer.swift"
+  : [1746543563, 409625160]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/LineScatterCandleRadarRenderer.swift"
+  : [1746543563, 409701325]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/PieChartRenderer.swift"
+  : [1746543563, 409807241]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/RadarChartRenderer.swift"
+  : [1746543563, 409912073]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/Renderer.swift"
+  : [1746543563, 410007321]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/Scatter/ChevronDownShapeRenderer.swift"
+  : [1746543563, 410136986]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/Scatter/ChevronUpShapeRenderer.swift"
+  : [1746543563, 410210985]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/Scatter/CircleShapeRenderer.swift"
+  : [1746543563, 410282360]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/Scatter/CrossShapeRenderer.swift"
+  : [1746543563, 410355775]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/Scatter/ShapeRenderer.swift"
+  : [1746543563, 410427649]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/Scatter/SquareShapeRenderer.swift"
+  : [1746543563, 410500732]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/Scatter/TriangleShapeRenderer.swift"
+  : [1746543563, 410572439]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/Scatter/XShapeRenderer.swift"
+  : [1746543563, 410642480]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/ScatterChartRenderer.swift"
+  : [1746543563, 410790020]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/XAxisRenderer.swift"
+  : [1746543563, 410874519]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/XAxisRendererHorizontalBarChart.swift"
+  : [1746543563, 411023183]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/XAxisRendererRadarChart.swift"
+  : [1746543563, 411101641]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/YAxisRenderer.swift"
+  : [1746543563, 411320013]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/YAxisRendererHorizontalBarChart.swift"
+  : [1746543563, 411473677]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Renderers/YAxisRendererRadarChart.swift"
+  : [1746543563, 411560385]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Utils/ChartColorTemplates.swift"
+  : [1746543563, 411691758]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Utils/ChartUtils.swift"
+  : [1746543563, 411829173]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Utils/Fill.swift"
+  : [1746543563, 411908630]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Utils/Indexed.swift"
+  : [1746543563, 411981213]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Utils/Partition.swift"
+  : [1746543563, 412053712]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Utils/Platform+Accessibility.swift"
+  : [1746543563, 412139877]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Utils/Platform+Color.swift"
+  : [1746543563, 412213834]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Utils/Platform+Gestures.swift"
+  : [1746543563, 412298042]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Utils/Platform+Graphics.swift"
+  : [1746543563, 412385666]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Utils/Platform+Touch Handling.swift"
+  : [1746543563, 412467289]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Utils/Platform.swift"
+  : [1746543563, 412561622]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Utils/Sequence+KeyPath.swift"
+  : [1746543563, 412637704]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Utils/Transformer.swift"
+  : [1746543563, 412726619]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Utils/TransformerHorizontalBarChart.swift"
+  : [1746543563, 412802327]
+  ? "/Users/mannyflor/Library/Developer/Xcode/DerivedData/habit_tracker-csnfvytihuvljucvanfadromerif/SourcePackages/checkouts/Charts/Source/Charts/Utils/ViewPortHandler.swift"
+  : [1746543563, 413001824]
+  ? "/Users/mannyflor/projects/habit tracker/DerivedData/habit tracker/Index.noindex/Build/Intermediates.noindex/DGCharts.build/Debug-iphonesimulator/DGCharts.build/DerivedSources/resource_bundle_accessor.swift"
+  : [1746545406, 803845250]

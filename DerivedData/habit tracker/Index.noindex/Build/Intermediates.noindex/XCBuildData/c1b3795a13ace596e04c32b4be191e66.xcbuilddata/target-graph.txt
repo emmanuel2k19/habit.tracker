@@ -1,0 +1,33 @@
+Target dependency graph (14 targets)
+Target 'habit tracker' in project 'habit tracker'
+➜ Explicit dependency on target 'DGChartsDynamic' in project 'DGCharts'
+➜ Explicit dependency on target 'DGCharts' in project 'DGCharts'
+➜ Explicit dependency on target 'FSCalendar' in project 'FSCalendar'
+Target 'FSCalendar' in project 'FSCalendar'
+➜ Explicit dependency on target 'FSCalendar' in project 'FSCalendar'
+Target 'FSCalendar' in project 'FSCalendar' (no dependencies)
+Target 'DGCharts' in project 'DGCharts'
+➜ Explicit dependency on target 'DGCharts' in project 'DGCharts'
+➜ Explicit dependency on target 'DGCharts_DGCharts' in project 'DGCharts'
+Target 'DGChartsDynamic' in project 'DGCharts'
+➜ Explicit dependency on target 'DGCharts' in project 'DGCharts'
+➜ Explicit dependency on target 'DGCharts_DGCharts' in project 'DGCharts'
+Target 'DGCharts' in project 'DGCharts'
+➜ Explicit dependency on target 'DGCharts_DGCharts' in project 'DGCharts'
+Target 'DGCharts_DGCharts' in project 'DGCharts' (no dependencies)
+Target 'habit tracker' in project 'habit tracker'
+➜ Explicit dependency on target 'DGChartsDynamic' in project 'DGCharts'
+➜ Explicit dependency on target 'DGCharts' in project 'DGCharts'
+➜ Explicit dependency on target 'FSCalendar' in project 'FSCalendar'
+Target 'FSCalendar' in project 'FSCalendar'
+➜ Explicit dependency on target 'FSCalendar' in project 'FSCalendar'
+Target 'FSCalendar' in project 'FSCalendar' (no dependencies)
+Target 'DGCharts' in project 'DGCharts'
+➜ Explicit dependency on target 'DGCharts' in project 'DGCharts'
+➜ Explicit dependency on target 'DGCharts_DGCharts' in project 'DGCharts'
+Target 'DGChartsDynamic' in project 'DGCharts'
+➜ Explicit dependency on target 'DGCharts' in project 'DGCharts'
+➜ Explicit dependency on target 'DGCharts_DGCharts' in project 'DGCharts'
+Target 'DGCharts' in project 'DGCharts'
+➜ Explicit dependency on target 'DGCharts_DGCharts' in project 'DGCharts'
+Target 'DGCharts_DGCharts' in project 'DGCharts' (no dependencies)

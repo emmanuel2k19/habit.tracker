@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>11</integer>
+	<key>logs</key>
+	<dict>
+		<key>0385CE03-D07C-4F0E-9C4C-7438E24977AD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0385CE03-D07C-4F0E-9C4C-7438E24977AD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>habit tracker project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>habit tracker</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean habit tracker</string>
+			<key>timeStartedRecording</key>
+			<real>768238204.76482701</real>
+			<key>timeStoppedRecording</key>
+			<real>768238204.82275605</real>
+			<key>title</key>
+			<string>Clean habit tracker</string>
+			<key>uniqueIdentifier</key>
+			<string>0385CE03-D07C-4F0E-9C4C-7438E24977AD</string>
+		</dict>
+		<key>053A1D60-C9D4-4ADC-8EB6-BDD6951BF12D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>053A1D60-C9D4-4ADC-8EB6-BDD6951BF12D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>habit tracker project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>habit tracker</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build habit tracker</string>
+			<key>timeStartedRecording</key>
+			<real>767994346.14580798</real>
+			<key>timeStoppedRecording</key>
+			<real>767994348.21646595</real>
+			<key>title</key>
+			<string>Build habit tracker</string>
+			<key>uniqueIdentifier</key>
+			<string>053A1D60-C9D4-4ADC-8EB6-BDD6951BF12D</string>
+		</dict>
+		<key>4E549597-7C55-4B34-8A7A-32C82BB4DD6D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4E549597-7C55-4B34-8A7A-32C82BB4DD6D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>habit tracker project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>habit tracker</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean habit tracker</string>
+			<key>timeStartedRecording</key>
+			<real>768234842.39866102</real>
+			<key>timeStoppedRecording</key>
+			<real>768234842.81619895</real>
+			<key>title</key>
+			<string>Clean habit tracker</string>
+			<key>uniqueIdentifier</key>
+			<string>4E549597-7C55-4B34-8A7A-32C82BB4DD6D</string>
+		</dict>
+		<key>52070B9D-1EAE-4059-AFC2-A6DF91C46781</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>52070B9D-1EAE-4059-AFC2-A6DF91C46781.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>habit tracker project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>habit tracker</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean habit tracker</string>
+			<key>timeStartedRecording</key>
+			<real>768238139.20353603</real>
+			<key>timeStoppedRecording</key>
+			<real>768238139.312011</real>
+			<key>title</key>
+			<string>Clean habit tracker</string>
+			<key>uniqueIdentifier</key>
+			<string>52070B9D-1EAE-4059-AFC2-A6DF91C46781</string>
+		</dict>
+		<key>652A3ABB-3BB2-41E4-9912-ECA74ED1BF51</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>652A3ABB-3BB2-41E4-9912-ECA74ED1BF51.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>habit tracker project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>habit tracker</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean habit tracker</string>
+			<key>timeStartedRecording</key>
+			<real>768237688.96798897</real>
+			<key>timeStoppedRecording</key>
+			<real>768237689.08549094</real>
+			<key>title</key>
+			<string>Clean habit tracker</string>
+			<key>uniqueIdentifier</key>
+			<string>652A3ABB-3BB2-41E4-9912-ECA74ED1BF51</string>
+		</dict>
+		<key>65F085C0-9FEB-4056-8608-A97B47DCB59A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>65F085C0-9FEB-4056-8608-A97B47DCB59A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>habit tracker project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>habit tracker</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build habit tracker</string>
+			<key>timeStartedRecording</key>
+			<real>767979681.70419502</real>
+			<key>timeStoppedRecording</key>
+			<real>767979683.71919501</real>
+			<key>title</key>
+			<string>Build habit tracker</string>
+			<key>uniqueIdentifier</key>
+			<string>65F085C0-9FEB-4056-8608-A97B47DCB59A</string>
+		</dict>
+		<key>7A7F74C4-A3E7-4A7C-80AE-277CB9B29732</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7A7F74C4-A3E7-4A7C-80AE-277CB9B29732.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>habit tracker project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>habit tracker</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean habit tracker</string>
+			<key>timeStartedRecording</key>
+			<real>768237610.37363803</real>
+			<key>timeStoppedRecording</key>
+			<real>768237610.57655895</real>
+			<key>title</key>
+			<string>Clean habit tracker</string>
+			<key>uniqueIdentifier</key>
+			<string>7A7F74C4-A3E7-4A7C-80AE-277CB9B29732</string>
+		</dict>
+		<key>7CD3EE8C-DC35-4EE1-9C2D-9324481B340E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7CD3EE8C-DC35-4EE1-9C2D-9324481B340E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>habit tracker project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>habit tracker</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build habit tracker</string>
+			<key>timeStartedRecording</key>
+			<real>768233366.01124704</real>
+			<key>timeStoppedRecording</key>
+			<real>768233367.71471298</real>
+			<key>title</key>
+			<string>Build habit tracker</string>
+			<key>uniqueIdentifier</key>
+			<string>7CD3EE8C-DC35-4EE1-9C2D-9324481B340E</string>
+		</dict>
+		<key>813441D7-3B67-4013-8CE4-072ADE3C656D</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>813441D7-3B67-4013-8CE4-072ADE3C656D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>3</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>1</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>habit tracker project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>habit tracker</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build habit tracker</string>
+			<key>timeStartedRecording</key>
+			<real>768235082.55052602</real>
+			<key>timeStoppedRecording</key>
+			<real>768235083.80396295</real>
+			<key>title</key>
+			<string>Build habit tracker</string>
+			<key>uniqueIdentifier</key>
+			<string>813441D7-3B67-4013-8CE4-072ADE3C656D</string>
+		</dict>
+		<key>8705B476-2E3F-4DCA-BB0B-CAEB0E52E123</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8705B476-2E3F-4DCA-BB0B-CAEB0E52E123.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>habit tracker project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>habit tracker</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build habit tracker</string>
+			<key>timeStartedRecording</key>
+			<real>768067252.61492801</real>
+			<key>timeStoppedRecording</key>
+			<real>768067253.62877798</real>
+			<key>title</key>
+			<string>Build habit tracker</string>
+			<key>uniqueIdentifier</key>
+			<string>8705B476-2E3F-4DCA-BB0B-CAEB0E52E123</string>
+		</dict>
+		<key>9474C656-C16E-45CC-A6D5-A07A74AAF508</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9474C656-C16E-45CC-A6D5-A07A74AAF508.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>habit tracker project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>habit tracker</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean habit tracker</string>
+			<key>timeStartedRecording</key>
+			<real>768235097.39918303</real>
+			<key>timeStoppedRecording</key>
+			<real>768235097.47353697</real>
+			<key>title</key>
+			<string>Clean habit tracker</string>
+			<key>uniqueIdentifier</key>
+			<string>9474C656-C16E-45CC-A6D5-A07A74AAF508</string>
+		</dict>
+		<key>9D9628DF-73DC-4424-AF3B-75A3358C92BB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9D9628DF-73DC-4424-AF3B-75A3358C92BB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>habit tracker project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>habit tracker</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build habit tracker</string>
+			<key>timeStartedRecording</key>
+			<real>767924896.38801503</real>
+			<key>timeStoppedRecording</key>
+			<real>767924901.83644903</real>
+			<key>title</key>
+			<string>Build habit tracker</string>
+			<key>uniqueIdentifier</key>
+			<string>9D9628DF-73DC-4424-AF3B-75A3358C92BB</string>
+		</dict>
+		<key>A75B8986-6579-47AA-BDC2-A07C7DDDC724</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A75B8986-6579-47AA-BDC2-A07C7DDDC724.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>habit tracker project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>habit tracker</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build habit tracker</string>
+			<key>timeStartedRecording</key>
+			<real>767979746.19476604</real>
+			<key>timeStoppedRecording</key>
+			<real>767979746.373088</real>
+			<key>title</key>
+			<string>Build habit tracker</string>
+			<key>uniqueIdentifier</key>
+			<string>A75B8986-6579-47AA-BDC2-A07C7DDDC724</string>
+		</dict>
+		<key>B7C32DD7-EE5C-497F-8B30-A9FCDEB66280</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B7C32DD7-EE5C-497F-8B30-A9FCDEB66280.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>habit tracker project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>habit tracker</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean habit tracker</string>
+			<key>timeStartedRecording</key>
+			<real>768235911.39875805</real>
+			<key>timeStoppedRecording</key>
+			<real>768235911.47882402</real>
+			<key>title</key>
+			<string>Clean habit tracker</string>
+			<key>uniqueIdentifier</key>
+			<string>B7C32DD7-EE5C-497F-8B30-A9FCDEB66280</string>
+		</dict>
+		<key>BBABCDBA-FA3D-40FF-8AF4-823DCDD077C1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BBABCDBA-FA3D-40FF-8AF4-823DCDD077C1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>habit tracker project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>habit tracker</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean habit tracker</string>
+			<key>timeStartedRecording</key>
+			<real>768235575.98766303</real>
+			<key>timeStoppedRecording</key>
+			<real>768235576.08379495</real>
+			<key>title</key>
+			<string>Clean habit tracker</string>
+			<key>uniqueIdentifier</key>
+			<string>BBABCDBA-FA3D-40FF-8AF4-823DCDD077C1</string>
+		</dict>
+		<key>BCFB7215-62B8-4930-B9A9-2D9FE6DED84F</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BCFB7215-62B8-4930-B9A9-2D9FE6DED84F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>habit tracker project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>habit tracker</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build habit tracker</string>
+			<key>timeStartedRecording</key>
+			<real>767924961.47524798</real>
+			<key>timeStoppedRecording</key>
+			<real>767924963.07880795</real>
+			<key>title</key>
+			<string>Build habit tracker</string>
+			<key>uniqueIdentifier</key>
+			<string>BCFB7215-62B8-4930-B9A9-2D9FE6DED84F</string>
+		</dict>
+		<key>C1E53917-2F7B-4DBF-8B01-6066819D9D77</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C1E53917-2F7B-4DBF-8B01-6066819D9D77.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>habit tracker project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>habit tracker</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build habit tracker</string>
+			<key>timeStartedRecording</key>
+			<real>767903587.57539999</real>
+			<key>timeStoppedRecording</key>
+			<real>767903588.791875</real>
+			<key>title</key>
+			<string>Build habit tracker</string>
+			<key>uniqueIdentifier</key>
+			<string>C1E53917-2F7B-4DBF-8B01-6066819D9D77</string>
+		</dict>
+		<key>FFF48B89-A272-4101-8459-DCEE94933CEE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FFF48B89-A272-4101-8459-DCEE94933CEE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>habit tracker project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>habit tracker</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build habit tracker</string>
+			<key>timeStartedRecording</key>
+			<real>768234886.75331903</real>
+			<key>timeStoppedRecording</key>
+			<real>768234888.46876705</real>
+			<key>title</key>
+			<string>Build habit tracker</string>
+			<key>uniqueIdentifier</key>
+			<string>FFF48B89-A272-4101-8459-DCEE94933CEE</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
