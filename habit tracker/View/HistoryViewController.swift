@@ -102,3 +102,4 @@ class HistoryViewController: UIViewController, FSCalendarDelegate, FSCalendarDat
         chartView.xAxis.enabled = false
     }
 }
+
