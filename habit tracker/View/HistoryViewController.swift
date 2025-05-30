@@ -3,10 +3,8 @@
 //  habit tracker
 //
 //  Created by Emmanuel Pena on 5/6/25.
-//
 import UIKit
-import FSCalendar
-import Charts
+
 
 class HistoryViewController: UIViewController, FSCalendarDelegate, FSCalendarDataSource {
     
@@ -85,7 +83,7 @@ class HistoryViewController: UIViewController, FSCalendarDelegate, FSCalendarDat
         let dataPoints = [2, 4, 3, 6, 4, 5, 7]
         let entries = dataPoints.enumerated().map { ChartDataEntry(x: Double($0.offset), y: Double($0.element)) }
         
-        let dataSet = LineChartDataSet(entries: entries, label: nil)
+        let dataSet = LineChartDataSet(entries: entries, label: "")
         dataSet.mode = .cubicBezier
         dataSet.drawFilledEnabled = true
         dataSet.fillColor = UIColor.systemTeal.withAlphaComponent(0.2)
