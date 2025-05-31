@@ -7,22 +7,20 @@
 
 import UIKit
 
-@UIApplicationMain
+@main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    
-    var window: UIWindow?
-    
-    func application(
-        _ application: UIApplication,
-        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
-    ) -> Bool {
+
+    var window: UIWindow? // Make sure this is declared
+
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        print("App launched!")
-
-        window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = ViewController()
-        window?.makeKeyAndVisible()
-
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        let rootVC = ViewController() // Your initial view controller
+        let navController = UINavigationController(rootViewController: rootVC)
+        window.rootViewController = navController
+        window.makeKeyAndVisible()
+        self.window = window
+        
         return true
     }
 }

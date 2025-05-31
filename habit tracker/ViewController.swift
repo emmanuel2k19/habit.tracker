@@ -36,23 +36,32 @@ class ViewController: UIViewController {
         getStarted.setTitle("Get Started", for: .normal)
         getStarted.backgroundColor = .systemTeal
         getStarted.setTitleColor(.white, for: .normal)
+        getStarted.translatesAutoresizingMaskIntoConstraints = false
+        getStarted.addTarget(self, action: #selector(didTapGetStarted), for: .touchUpInside)
         
-        view.addSubview(getStarted)
         view.addSubview(backgroundView)
         view.addSubview(label)
+        view.addSubview(getStarted)
     }
     
     func applyConstraints() {
         NSLayoutConstraint.activate([
             label.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20),
             label.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-        
+            
             getStarted.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant : 30),
             getStarted.centerXAnchor.constraint(equalTo: view.centerXAnchor)
             
-        
-        
+            
+            
         ])
     }
+    
+    @objc func didTapGetStarted() {
+        let loginVC = LoginViewController()
+        navigationController?.pushViewController(loginVC, animated: true)
+    } 
+    
+    
 }
 

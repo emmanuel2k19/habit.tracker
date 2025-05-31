@@ -5,99 +5,82 @@
 //  Created by Emmanuel Pena on 5/6/25.
 import UIKit
 
+class HistoryViewController: UIViewController {
+    
+    private let calendarPicker: UIDatePicker = {
+        let picker = UIDatePicker()
+        picker.datePickerMode = .date
+        picker.preferredDatePickerStyle = .inline
+        picker.translatesAutoresizingMaskIntoConstraints = false
+        return picker
+    }()
+    
+    private let selectedDateLabel: UILabel = {
+        let label = UILabel()
+        label.font = UIFont.systemFont(ofSize: 18, weight: .medium)
+        label.textAlignment = .center
+        label.textColor = .label
+        label.translatesAutoresizingMaskIntoConstraints = false
+        return label
+    }()
 
-class HistoryViewController: UIViewController, FSCalendarDelegate, FSCalendarDataSource {
-    
-    // UI Elements
-    let titleLabel = UILabel()
-    let calendar = FSCalendar()
-    let completionsLabel = UILabel()
-    let chartView = LineChartView()
-    
+    private let chartView: LineChartView = {
+        let chart = LineChartView()
+        chart.translatesAutoresizingMaskIntoConstraints = false
+        chart.layer.cornerRadius = 12
+        chart.clipsToBounds = true
+        chart.backgroundColor = .secondarySystemGroupedBackground
+        return chart
+    }()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemGroupedBackground
-        setupUI()
+        view.backgroundColor = .systemBackground
+
+        setupViews()
         setupConstraints()
-        setupChart()
+
+        calendarPicker.addTarget(self, action: #selector(dateChanged), for: .valueChanged)
+        updateDateLabel(with: calendarPicker.date)
+        updateChartData()
     }
-    
-    private func setupUI() {
-        // Title
-        titleLabel.text = "Exercise"
-        titleLabel.font = .boldSystemFont(ofSize: 28)
-        titleLabel.translatesAutoresizingMaskIntoConstraints = false
-        
-        // Calendar
-        calendar.delegate = self
-        calendar.dataSource = self
-        calendar.layer.cornerRadius = 12
-        calendar.clipsToBounds = true
-        calendar.translatesAutoresizingMaskIntoConstraints = false
-        
-        // Completions Label
-        let boldText = "12"
-        let fullText = "3 this week     \(boldText) this month"
-        let attributed = NSMutableAttributedString(string: fullText)
-        if let range = fullText.range(of: boldText) {
-            let nsRange = NSRange(range, in: fullText)
-            attributed.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 16), range: nsRange)
-        }
-        completionsLabel.attributedText = attributed
-        completionsLabel.font = .systemFont(ofSize: 16)
-        completionsLabel.translatesAutoresizingMaskIntoConstraints = false
-        
-        // Chart View
-        chartView.layer.cornerRadius = 12
-        chartView.clipsToBounds = true
-        chartView.translatesAutoresizingMaskIntoConstraints = false
-        
-        // Add subviews
-        view.addSubview(titleLabel)
-        view.addSubview(calendar)
-        view.addSubview(completionsLabel)
+
+    private func setupViews() {
+        view.addSubview(calendarPicker)
+        view.addSubview(selectedDateLabel)
         view.addSubview(chartView)
     }
-    
+
     private func setupConstraints() {
         NSLayoutConstraint.activate([
-            titleLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 16),
-            titleLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            calendarPicker.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20),
+            calendarPicker.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            calendarPicker.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
             
-            calendar.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 16),
-            calendar.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
-            calendar.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
-            calendar.heightAnchor.constraint(equalToConstant: 300),
-            
-            completionsLabel.topAnchor.constraint(equalTo: calendar.bottomAnchor, constant: 16),
-            completionsLabel.leadingAnchor.constraint(equalTo: calendar.leadingAnchor),
-            
-            chartView.topAnchor.constraint(equalTo: completionsLabel.bottomAnchor, constant: 12),
-            chartView.leadingAnchor.constraint(equalTo: calendar.leadingAnchor),
-            chartView.trailingAnchor.constraint(equalTo: calendar.trailingAnchor),
+            selectedDateLabel.topAnchor.constraint(equalTo: calendarPicker.bottomAnchor, constant: 20),
+            selectedDateLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+
+            chartView.topAnchor.constraint(equalTo: selectedDateLabel.bottomAnchor, constant: 30),
+            chartView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            chartView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
             chartView.heightAnchor.constraint(equalToConstant: 200)
         ])
     }
-    
-    private func setupChart() {
-        let dataPoints = [2, 4, 3, 6, 4, 5, 7]
-        let entries = dataPoints.enumerated().map { ChartDataEntry(x: Double($0.offset), y: Double($0.element)) }
-        
-        let dataSet = LineChartDataSet(entries: entries, label: "")
-        dataSet.mode = .cubicBezier
-        dataSet.drawFilledEnabled = true
-        dataSet.fillColor = UIColor.systemTeal.withAlphaComponent(0.2)
-        dataSet.setColor(.systemTeal)
-        dataSet.setCircleColor(.systemTeal)
-        dataSet.lineWidth = 2
-        dataSet.circleRadius = 3
-        dataSet.drawValuesEnabled = false
-        
-        chartView.data = LineChartData(dataSet: dataSet)
-        chartView.legend.enabled = false
-        chartView.rightAxis.enabled = false
-        chartView.leftAxis.enabled = false
-        chartView.xAxis.enabled = false
+
+    @objc private func dateChanged() {
+        updateDateLabel(with: calendarPicker.date)
+        updateChartData()
+    }
+
+    private func updateDateLabel(with date: Date) {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .full
+        selectedDateLabel.text = "Selected: \(formatter.string(from: date))"
+    }
+
+    private func updateChartData() {
+        // Dummy chart data (e.g., weekly progress)
+        let mockData: [CGFloat] = [2, 4, 3, 6, 5, 4, 7]
+        chartView.dataPoints = mockData
     }
 }
-
