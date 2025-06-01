@@ -34,6 +34,8 @@ class ViewController: UIViewController {
         label.translatesAutoresizingMaskIntoConstraints = false
         
         getStarted.setTitle("Get Started", for: .normal)
+        getStarted.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
+        getStarted.layer.cornerRadius = 10
         getStarted.backgroundColor = .systemTeal
         getStarted.setTitleColor(.white, for: .normal)
         getStarted.translatesAutoresizingMaskIntoConstraints = false
@@ -49,9 +51,10 @@ class ViewController: UIViewController {
             label.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20),
             label.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             
-            getStarted.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant : 30),
-            getStarted.centerXAnchor.constraint(equalTo: view.centerXAnchor)
-            
+            getStarted.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant :10),
+            getStarted.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            getStarted.widthAnchor.constraint(equalToConstant: 200),
+            getStarted.heightAnchor.constraint(equalToConstant: 50),
             
             
         ])

@@ -9,10 +9,10 @@ import UIKit
 class LoginViewController: UIViewController {
     
     let backgroundView = UIView()
-    let emailField = UITextField()
-    let passwordField = UITextField()
+    let emailField = FloatingLabelTextField()
+    let passwordField = FloatingLabelTextField()
     let loginButton = UIButton()
-    
+    let createAccountButton = UIButton()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,13 +25,9 @@ class LoginViewController: UIViewController {
         backgroundView.translatesAutoresizingMaskIntoConstraints = false
         
         emailField.placeholder = "Email"
-        emailField.borderStyle = .roundedRect
-        emailField.autocapitalizationType = .none
         emailField.translatesAutoresizingMaskIntoConstraints = false
         
         passwordField.placeholder = "Password"
-        passwordField.borderStyle = .roundedRect
-        passwordField.isSecureTextEntry = true
         passwordField.translatesAutoresizingMaskIntoConstraints = false
         
         loginButton.setTitle("Log In", for: .normal)
@@ -41,10 +37,17 @@ class LoginViewController: UIViewController {
         loginButton.translatesAutoresizingMaskIntoConstraints = false
         loginButton.addTarget(self, action: #selector(loginTapped), for: .touchUpInside)
         
+        createAccountButton.setTitle("Create Account", for: .normal)
+        createAccountButton.setTitleColor(.systemTeal, for: .normal)
+        createAccountButton.titleLabel?.font = .systemFont(ofSize: 16, weight: .medium)
+        createAccountButton.translatesAutoresizingMaskIntoConstraints = false
+        createAccountButton.addTarget(self, action: #selector(createAccountTapped), for: .touchUpInside)
+        
         view.addSubview(backgroundView)
         view.addSubview(emailField)
         view.addSubview(passwordField)
         view.addSubview(loginButton)
+        view.addSubview(createAccountButton)
     }
     
     func applyConstraints() {
@@ -52,7 +55,7 @@ class LoginViewController: UIViewController {
             backgroundView.topAnchor.constraint(equalTo: view.topAnchor),
             backgroundView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
             backgroundView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            backgroundView.trailingAnchor.constraint(equalTo: view.trailingAnchor), 
+            backgroundView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             
             emailField.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 100),
             emailField.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 30),
@@ -67,7 +70,11 @@ class LoginViewController: UIViewController {
             loginButton.topAnchor.constraint(equalTo: passwordField.bottomAnchor, constant: 40),
             loginButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             loginButton.widthAnchor.constraint(equalToConstant: 200),
-            loginButton.heightAnchor.constraint(equalToConstant: 50)
+            loginButton.heightAnchor.constraint(equalToConstant: 50),
+            
+            createAccountButton.topAnchor.constraint(equalTo: loginButton.bottomAnchor, constant: 20),
+            createAccountButton.centerXAnchor.constraint(equalTo: view.centerXAnchor)
+            
         ])
     }
     
@@ -76,4 +83,11 @@ class LoginViewController: UIViewController {
         let dashboardVC = DashboardController()
         navigationController?.pushViewController(dashboardVC, animated: true)
     }
+    
+    @objc func createAccountTapped() {
+        let createAccountVC = CreateAccountViewController()
+        navigationController?.pushViewController(createAccountVC, animated: true)
+    }
+    
+    
 }
