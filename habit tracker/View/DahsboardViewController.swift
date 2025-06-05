@@ -25,7 +25,7 @@ class DashboardController: UIViewController, AddHabitDelegate {
     let habitsHeader = UILabel()
     let habitsStack = UIStackView()
     let historyButton = UIButton()
-    
+    let removeButton = UIButton()
     let dummyHabits = ["Read for 20 minutes", "Walk the dog", "Exercise", "Meditate"]
     
     // Progress Circle Layers and Labels
@@ -144,10 +144,18 @@ class DashboardController: UIViewController, AddHabitDelegate {
         historyButton.addTarget(self, action: #selector(historyButtonTapped), for: .touchUpInside)
         view.addSubview(historyButton)
         
+        removeButton.setTitle("Remove Habit", for: .normal)
+        removeButton.setTitleColor(.white, for: .normal)
+        removeButton.backgroundColor = .systemRed
+        removeButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
+        removeButton.layer.cornerRadius = 8
+        removeButton.translatesAutoresizingMaskIntoConstraints = false
+        removeButton.addTarget(self, action: #selector(removeButtonTapped), for: .touchUpInside)
+        view.addSubview(removeButton)
     }
     
     func applyConstraints() {
-        [titleLabel, dateLabel, progressView, habitsContainer, habitsHeader, habitsStack, addHabitButton, habitsLabel, percentageLabel, progressDescriptionLabel,historyButton].forEach {
+        [titleLabel, dateLabel, progressView, habitsContainer, habitsHeader, habitsStack, addHabitButton, habitsLabel, percentageLabel, progressDescriptionLabel,historyButton,removeButton].forEach {
             $0.translatesAutoresizingMaskIntoConstraints = false
         }
         
@@ -182,14 +190,19 @@ class DashboardController: UIViewController, AddHabitDelegate {
             habitsStack.bottomAnchor.constraint(equalTo: habitsContainer.bottomAnchor, constant: -16),
             
             addHabitButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            addHabitButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -20),
+            addHabitButton.bottomAnchor.constraint(equalTo: historyButton.topAnchor, constant: -12),
             addHabitButton.heightAnchor.constraint(equalToConstant: 50),
             addHabitButton.widthAnchor.constraint(equalToConstant: 150),
-            
+
             historyButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            historyButton.topAnchor.constraint(equalTo: addHabitButton.bottomAnchor, constant: 12),
+            historyButton.bottomAnchor.constraint(equalTo: removeButton.topAnchor, constant: -12),
             historyButton.heightAnchor.constraint(equalToConstant: 44),
             historyButton.widthAnchor.constraint(equalToConstant: 100),
+
+            removeButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            removeButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -20),
+            removeButton.heightAnchor.constraint(equalToConstant: 44),
+            removeButton.widthAnchor.constraint(equalToConstant: 150),
         ])
         
         // Position the circular layers
@@ -218,6 +231,33 @@ class DashboardController: UIViewController, AddHabitDelegate {
         navigationController?.pushViewController(historyVC, animated: true)
     }
     
+    @objc private func removeButtonTapped() {
+        let alert = UIAlertController(title: "Remove Habit", message: "Are you sure you want to remove this habit?", preferredStyle: .alert)
+        
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        
+        alert.addAction(UIAlertAction(title: "Remove", style: .destructive, handler: { _ in
+            self.removeCheckedHabits()
+        }))
+        
+        present(alert, animated: true, completion: nil)
+    }
     
+     func removeCheckedHabits() {
+        var habitsToRemove: [String] = []
+
+        for case let habitView as HabitCheckView in habitsStack.arrangedSubviews {
+            if habitView.isChecked {
+                habitsToRemove.append(habitView.habitText)
+            }
+        }
+
+        // Remove from ViewModel
+        for habit in habitsToRemove {
+            viewModel.removeHabit(named: habit)
+        }
+
+        reloadHabitsUI()
+    }
 }
  

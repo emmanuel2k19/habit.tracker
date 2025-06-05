@@ -8,10 +8,14 @@ import UIKit
 
 class HabitCheckView: UIView {
 
-    private let checkbox = UIButton(type: .system)
-    private let habitLabel = UILabel()
-    private var isChecked = false
+     let checkbox = UIButton(type: .system)
+     let habitLabel = UILabel()
+     var isChecked = false
 
+    var habitText: String {
+        return habitLabel.text ?? ""
+    }
+    
     init(habitText: String) {
         super.init(frame: .zero)
         setupUI(habitText: habitText)

@@ -10,7 +10,7 @@ class HabitViewModel {
     private(set) var habits: [Habit] = []
     
     var onHabitsChanged: (() -> Void)?
-
+    
     init() {
         loadHabits()
     }
@@ -21,14 +21,14 @@ class HabitViewModel {
         saveHabits()
         onHabitsChanged?()
     }
-
+    
     func markHabitCompleted(id: UUID, on date: Date = Date()) {
         guard let index = habits.firstIndex(where: { $0.id == id }) else { return }
         habits[index].markCompleted(on: date)
         saveHabits()
         onHabitsChanged?()
     }
-
+    
     func completionsThisWeek(for id: UUID) -> Int {
         habits.first(where: { $0.id == id })?.completionsThisWeek() ?? 0
     }
@@ -36,15 +36,15 @@ class HabitViewModel {
     func completionsThisMonth(for id: UUID) -> Int {
         habits.first(where: { $0.id == id })?.completionsThisMonth() ?? 0
     }
-
+    
     func percentThisWeek(for id: UUID) -> Double {
         habits.first(where: { $0.id == id })?.progressPercentThisWeek() ?? 0
     }
-
+    
     func chartData(for id: UUID) -> [Double] {
         habits.first(where: { $0.id == id })?.dataPointsForChart() ?? []
     }
-
+    
     // MARK: - Persistence (basic UserDefaults for now)
     
     private func saveHabits() {
@@ -52,11 +52,16 @@ class HabitViewModel {
             UserDefaults.standard.set(data, forKey: "savedHabits")
         }
     }
-
+    
     private func loadHabits() {
         if let data = UserDefaults.standard.data(forKey: "savedHabits"),
            let decoded = try? JSONDecoder().decode([Habit].self, from: data) {
             habits = decoded
         }
+    }
+    
+    func removeHabit(named name: String) {
+        habits.removeAll { $0.name == name }
+        onHabitsChanged?()
     }
 }
