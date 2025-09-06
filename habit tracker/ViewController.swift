@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     
     let backgroundView = UIView()
     let label = UILabel()
-    
+    let getStarted = UIButton()
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         backgroundView.frame = view.bounds
@@ -25,14 +25,19 @@ class ViewController: UIViewController {
     }
     
     func setUpView() {
-        backgroundView.backgroundColor = .systemBlue
+        backgroundView.backgroundColor = .white
         backgroundView.translatesAutoresizingMaskIntoConstraints = true
         
         label.text = "Habit Tracker "
-        label.textColor = .systemYellow
+        label.textColor = .systemTeal
         label.font = .boldSystemFont(ofSize: 44)
         label.translatesAutoresizingMaskIntoConstraints = false
         
+        getStarted.setTitle("Get Started", for: .normal)
+        getStarted.backgroundColor = .systemTeal
+        getStarted.setTitleColor(.white, for: .normal)
+        
+        view.addSubview(getStarted)
         view.addSubview(backgroundView)
         view.addSubview(label)
     }
@@ -40,7 +45,14 @@ class ViewController: UIViewController {
     func applyConstraints() {
         NSLayoutConstraint.activate([
             label.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20),
-            label.centerXAnchor.constraint(equalTo: view.centerXAnchor)
+            label.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+        
+            getStarted.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant : 30),
+            getStarted.centerXAnchor.constraint(equalTo: view.centerXAnchor)
+            
+        
+        
         ])
     }
 }
+

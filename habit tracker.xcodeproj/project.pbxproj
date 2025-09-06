@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		72D307F0843748A478638419 /* Pods_habit_tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DACC667D8AD77ED06B785A6 /* Pods_habit_tracker.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		56145CEC8E6736E80E91453C /* Pods-habit tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-habit tracker.debug.xcconfig"; path = "Target Support Files/Pods-habit tracker/Pods-habit tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		8DACC667D8AD77ED06B785A6 /* Pods_habit_tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_habit_tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FD49942DC143180087B899 /* habit tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "habit tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6AAEB5F8218B342C7D1C67 /* Pods-habit tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-habit tracker.release.xcconfig"; path = "Target Support Files/Pods-habit tracker/Pods-habit tracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -36,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72D307F0843748A478638419 /* Pods_habit_tracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +55,8 @@
 			children = (
 				96FD49962DC143180087B899 /* habit tracker */,
 				96FD49952DC143180087B899 /* Products */,
+				B307FA7BEE2F3BD32912146F /* Pods */,
+				D22EF97CA0F1E66F09125C81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +68,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B307FA7BEE2F3BD32912146F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56145CEC8E6736E80E91453C /* Pods-habit tracker.debug.xcconfig */,
+				AA6AAEB5F8218B342C7D1C67 /* Pods-habit tracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D22EF97CA0F1E66F09125C81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DACC667D8AD77ED06B785A6 /* Pods_habit_tracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,9 +92,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96FD49A72DC1431A0087B899 /* Build configuration list for PBXNativeTarget "habit tracker" */;
 			buildPhases = (
+				8BEF8B1292196EA176F49167 /* [CP] Check Pods Manifest.lock */,
 				96FD49902DC143180087B899 /* Sources */,
 				96FD49912DC143180087B899 /* Frameworks */,
 				96FD49922DC143180087B899 /* Resources */,
+				A9F768606FAE144D31F8E4F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -107,6 +136,8 @@
 			);
 			mainGroup = 96FD498B2DC143180087B899;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 96FD49952DC143180087B899 /* Products */;
 			projectDirPath = "";
@@ -127,6 +158,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8BEF8B1292196EA176F49167 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-habit tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9F768606FAE144D31F8E4F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-habit tracker/Pods-habit tracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-habit tracker/Pods-habit tracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-habit tracker/Pods-habit tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96FD49902DC143180087B899 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,23 +213,27 @@
 /* Begin XCBuildConfiguration section */
 		96FD49A82DC1431A0087B899 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56145CEC8E6736E80E91453C /* Pods-habit tracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CR9GF953FF;
+				DEVELOPMENT_TEAM = 5NKH9AB2KM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "habit tracker/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mannyflor.habittracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mannyflor.habittracker2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -166,23 +243,27 @@
 		};
 		96FD49A92DC1431A0087B899 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA6AAEB5F8218B342C7D1C67 /* Pods-habit tracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CR9GF953FF;
+				DEVELOPMENT_TEAM = 5NKH9AB2KM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "habit tracker/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mannyflor.habittracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mannyflor.habittracker2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
